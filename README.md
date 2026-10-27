@@ -42,3 +42,6 @@ This repository contains labs and projects that were written to practice fronten
 
 ## Other sections
 
+### Routing
+
+*Study project* to practice Vite project, React Router, dynamic parameterized routes, and component composition.
