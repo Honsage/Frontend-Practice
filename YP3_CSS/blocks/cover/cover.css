@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-items: center;
     background: url(../../images/cover-trains.jpg) center /cover no-repeat;
+    z-index: 1;
 }
 
 @media screen and (max-width: 1280px) { 

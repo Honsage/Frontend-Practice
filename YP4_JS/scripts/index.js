@@ -1,9 +1,6 @@
 // About Cards
 const cardsContainer = document.querySelector(".places__list");
 const cardTemplate = document.querySelector("#card-template").content;
-initialCards.forEach(function(item){
-    cardsContainer.append(createCard(item));
-});
 
 // Popups
 const profilePopup = document.querySelector(".popup_type_edit");
@@ -34,8 +31,8 @@ editProfileButton.addEventListener('click', openEditProfile);
 const addCardButton = document.querySelector(".profile__add-button");
 addCardButton.addEventListener('click', openAddCard);
 
-const closePopup = document.querySelectorAll(".popup__close");
-closePopup.forEach(function (closeCross) {
+const closePopupButtons = document.querySelectorAll(".popup__close");
+closePopupButtons.forEach(function (closeCross) {
     closeCross.addEventListener('click', function () {
         const popup = closeCross.closest('.popup');
         togglePopup(popup);
@@ -110,3 +107,7 @@ function createCard(cardData) {
     cardImage.alt = cardData.name;
     return card;
 }
+
+initialCards.forEach(function(item){
+    cardsContainer.append(createCard(item));
+});

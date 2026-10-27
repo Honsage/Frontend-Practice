@@ -1,5 +1,9 @@
 const initialCards = [
     {
+      name: "Тамбов",
+      link: "https://nadzor.tmbreg.ru/assets/images/news/2022/3-квартал/photo1664264960.jpeg",
+    },
+    {
       name: "Архыз",
       link: "https://pictures.s3.yandex.net/frontend-developer/cards-compressed/arkhyz.jpg",
     },
